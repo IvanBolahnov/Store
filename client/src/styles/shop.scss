@@ -1,0 +1,6 @@
+.shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas: 'typeBar brandBar brandBar brandBar' 'typeBar deviceList deviceList deviceList';
+}

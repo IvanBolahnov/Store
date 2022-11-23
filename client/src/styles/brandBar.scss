@@ -1,0 +1,23 @@
+.brand-bar {
+  grid-area: brandBar;
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+
+    li {
+      width: 100%;
+
+      button {
+        width: 100%;
+        cursor: pointer;
+        padding: 5px;
+    
+        &.active {
+          background: rgb(124, 187, 255);
+        }
+      }
+    }
+  }
+} 
